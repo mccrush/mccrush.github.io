@@ -8,17 +8,27 @@
     <div class="row border">
       <div class="col-12">2</div>
     </div>
-    <h4 class="text-center">Приложения на домене</h4>
-    <Apps />
+    <h4 class="text-center fs-1">Приложения на домене</h4>
+    <div class="row pe-sm-3">
+      <Card v-for="app in apps" :key="app.alias" :app="app" />
+    </div>
   </div>
 </template>
 
 <script>
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Apps from '@/components/Apps'
+import sites from '@/data/sites.js'
+import apps from '@/data/apps.js'
+import Card from '@/components/Card'
 export default {
   components: {
-    Apps
+    Card
+  },
+  data() {
+    return {
+      sites,
+      apps
+    }
   }
 }
 </script>
