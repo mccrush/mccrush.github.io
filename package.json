@@ -2,18 +2,38 @@
   "name": "mccrush.github.io",
   "version": "1.0.0",
   "description": "website",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mccrush/mccrush.github.io.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "mccrush apps <mccrush2027@gmail.com> (https://mccrush.ru)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mccrush/mccrush.github.io/issues"
   },
-  "homepage": "https://github.com/mccrush/mccrush.github.io#readme"
+  "homepage": "https://github.com/mccrush/mccrush.github.io#readme",
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "jsxBracketSameLine": true,
+    "arrowParens": "avoid",
+    "trailingComma": "none"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "vue": "^3.2.20"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.15",
+    "@vue/compiler-sfc": "^3.2.20"
+  }
 }
