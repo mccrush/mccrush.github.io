@@ -22,6 +22,7 @@
 
 <script>
 import apps from '@/data/apps.js'
+import Card from '@/data/apps.js'
 export default {
   data() {
     return {
