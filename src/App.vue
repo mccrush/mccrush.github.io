@@ -44,8 +44,8 @@
 
 <script>
 import 'bootstrap/dist/css/bootstrap.min.css'
-import sites from './data/sites'
-import apps from './data/apps'
+import { sites } from './data/sites'
+import { apps } from './data/apps'
 import { types } from './data/types'
 import Card from './components/Card'
 import FilterItem from './components/FilterItem'

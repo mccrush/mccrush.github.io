@@ -1,4 +1,4 @@
-export default () => [
+export const apps = () => [
   {
     title: 'Info Math',
     description: 'Справочник по Информатике и Математике',
