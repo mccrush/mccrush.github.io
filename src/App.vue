@@ -19,25 +19,56 @@
       <Card v-for="app in sites" :key="app.alias" :app="app" />
     </div>
     <h4 class="text-center mt-5">Приложения на домене mccrush.github.io</h4>
+    <div class="row">
+      <div class="col-12 d-flex flex-wrap justify-content-center">
+        <FilterItem
+          v-for="type in types"
+          :key="type.pos"
+          :type="type"
+          :filterType="filterType"
+          @click="filterType = type.type"
+        />
+        <FilterItem
+          v-if="filterType"
+          :type="{ title: 'Показать все', type: '' }"
+          :filterType="filterType"
+          @click="filterType = ''"
+        />
+      </div>
+    </div>
     <div class="row pe-sm-3">
-      <Card v-for="app in apps" :key="app.alias" :app="app" />
+      <Card v-for="app in filterApps" :key="app.alias" :app="app" />
     </div>
   </div>
 </template>
 
 <script>
 import 'bootstrap/dist/css/bootstrap.min.css'
-import sites from '@/data/sites.js'
-import apps from '@/data/apps.js'
-import Card from '@/components/Card'
+import sites from './data/sites'
+import apps from './data/apps'
+import { types } from './data/types'
+import Card from './components/Card'
+import FilterItem from './components/FilterItem'
 export default {
   components: {
-    Card
+    Card,
+    FilterItem
   },
   data() {
     return {
-      sites,
-      apps
+      sites: sites(),
+      apps: apps(),
+      types: types(),
+      filterType: ''
+    }
+  },
+  computed: {
+    filterApps() {
+      if (this.filterType) {
+        return this.apps.filter(item => item.type === this.filterType)
+      } else {
+        return this.apps
+      }
     }
   }
 }
