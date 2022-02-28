@@ -42,11 +42,13 @@ export default {
 
 .my-card-body {
   background-color: #253144 !important;
+  border-bottom: 1px solid hsl(217deg 30% 19%);
   /* height: 112px; */
 }
 
 .my-card-footer {
   background-color: #32425a !important;
+  border-top: 1px solid hsl(216deg 29% 29%);
   /* border-bottom: 1px solid #253144; */
   transition: 0.3s ease;
 }
