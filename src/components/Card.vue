@@ -6,7 +6,7 @@
       target="_blank"
     >
       <div class="my-card-body rounded-top h-75 p-3">
-        <h5 class="color-f">{{ app.title }}</h5>
+        <h5 class="color-c">{{ app.title }}</h5>
         <p class="card-text color-c lh-sm">
           {{ app.description }}
         </p>
