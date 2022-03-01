@@ -41,14 +41,14 @@ export default {
 }
 
 .my-card-body {
-  background-color: #253144 !important;
-  border-bottom: 1px solid hsl(217deg 30% 19%);
+  background-color: hsl(216deg 30% 18%) !important;
+  border-bottom: 1px solid hsl(216deg 30% 16%);
   /* height: 112px; */
 }
 
 .my-card-footer {
-  background-color: #32425a !important;
-  border-top: 1px solid hsl(216deg 29% 29%);
+  background-color: hsl(216deg 30% 26%) !important;
+  border-top: 1px solid hsl(216deg 30% 28%);
   /* border-bottom: 1px solid #253144; */
   transition: 0.3s ease;
 }

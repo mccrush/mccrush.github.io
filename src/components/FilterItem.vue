@@ -14,7 +14,8 @@ export default {
 
 <style scoped>
 .filter-item {
-  background-color: #253144 !important;
+  background-color: hsl(216deg 30% 18%) !important;
+  border-bottom: 1px solid hsl(216deg 30% 28%);
   text-decoration: none;
   color: #ccc;
   cursor: pointer;
@@ -23,11 +24,11 @@ export default {
 
 .filter-item:hover {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-  background-color: #32425a !important;
+  background-color: hsl(216deg 30% 28%) !important;
 }
 
 .filter-active {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-  background-color: #32425a !important;
+  background-color: hsl(216deg 30% 28%) !important;
 }
 </style>

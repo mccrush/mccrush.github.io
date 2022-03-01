@@ -77,7 +77,8 @@ export default {
 <style>
 body {
   color: #f2f2f2;
-  background-color: #32425a;
+  /* background-color: #32425a; */
+  background-color: hsl(216deg, 30%, 26%);
 }
 
 .logo {
