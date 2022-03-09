@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark p-0 pt-2">
+  <nav class="navbar navbar-expand-sm navbar-dark p-0 ps-2 pt-2">
     <div class="nav container-960 container-lg align-items-center">
       <div class="logo navbar-brand d-flex align-items-center">
         <img
@@ -28,16 +28,16 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" href="#services">Услуги</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#apps">Приложения</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#projects">Проекты</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="#contacts">Контакты</a>
           </li>
         </ul>
       </div>

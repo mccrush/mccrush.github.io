@@ -1,21 +1,7 @@
 <template>
   <div class="container-fluid">
     <F1 />
-    <!-- <div class="row">
-      <div class="col-12 d-flex justify-content-center pt-4">
-        <img
-          src="logo_.png"
-          alt="Logo mccrush apps"
-          width="64"
-          height="64"
-          class="me-2 me-sm-3 mt-3 mt-sm-3"
-        />
-        <div class="mt-1">
-          <h1 class="fw-bold m-0 mt-1 mb-1 fs-1">mccrush apps</h1>
-          <p class="fs-5 fw-light lh-1">разработка веб-приложений</p>
-        </div>
-      </div>
-    </div> -->
+    <F5 />
     <div class="row pe-sm-3 pt-3">
       <Card v-for="app in sites" :key="app.alias" :app="app" />
     </div>
@@ -49,12 +35,14 @@ import { sites } from './data/sites'
 import { apps } from './data/apps'
 import { types } from './data/types'
 import F1 from './layouts/F1.vue'
+import F5 from './layouts/F5.vue'
 import Card from './components/Card.vue'
 import FilterItem from './components/FilterItem.vue'
 
 export default {
   components: {
     F1,
+    F5,
     Card,
     FilterItem
   },

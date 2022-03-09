@@ -18,12 +18,21 @@ export default {
 </script>
 
 <style scoped>
-.f1 {
+/* .f1 {
   background: rgb(46, 62, 86);
   background: radial-gradient(
     circle,
     rgba(46, 62, 86, 1) 0%,
     rgba(32, 43, 60, 1) 100%
+  );
+} */
+
+.f1 {
+  background: rgb(50, 67, 93);
+  background: radial-gradient(
+    circle,
+    rgba(50, 67, 93, 1) 0%,
+    rgba(29, 38, 53, 1) 100%
   );
 }
 </style>
