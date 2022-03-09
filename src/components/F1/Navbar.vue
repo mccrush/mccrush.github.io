@@ -1,6 +1,6 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark">
-    <div class="nav container-lg align-items-center border">
+  <nav class="navbar navbar-expand-sm navbar-dark p-0 pt-2">
+    <div class="nav container-960 container-lg align-items-center">
       <div class="logo navbar-brand d-flex align-items-center">
         <img
           src="logo_.png"

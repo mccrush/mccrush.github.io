@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <F1 />
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-12 d-flex justify-content-center pt-4">
         <img
           src="logo_.png"
@@ -15,7 +15,7 @@
           <p class="fs-5 fw-light lh-1">разработка веб-приложений</p>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="row pe-sm-3 pt-3">
       <Card v-for="app in sites" :key="app.alias" :app="app" />
     </div>
@@ -91,9 +91,8 @@ body {
   );
 }
 
-.logo {
-  width: 64px;
-  height: 64px;
+.container-960 {
+  max-width: 960px;
 }
 </style>
   
