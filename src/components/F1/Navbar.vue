@@ -1,0 +1,52 @@
+<template>
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="nav container-lg align-items-center border">
+      <div class="logo navbar-brand d-flex align-items-center">
+        <img
+          src="logo_.png"
+          alt="Logo mccrush apps"
+          width="48"
+          height="48"
+          class="m-0 ms-2 mt-1 me-2"
+        />
+        <span class="fw-bold pb-1">mccrush apps</span>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="navigation collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
+
+<style scoped>
+.nav {
+  height: 64px;
+}
+</style>

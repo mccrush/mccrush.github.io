@@ -1,5 +1,6 @@
 <template>
-  <div class="container-lg mt-4 mb-4">
+  <div class="container-fluid">
+    <F1 />
     <div class="row">
       <div class="col-12 d-flex justify-content-center pt-4">
         <img
@@ -13,14 +14,6 @@
           <h1 class="fw-bold m-0 mt-1 mb-1 fs-1">mccrush apps</h1>
           <p class="fs-5 fw-light lh-1">разработка веб-приложений</p>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <img
-          src="images/1f/pair-programming-animate.svg"
-          alt="Разработка веб-приложений"
-        />
       </div>
     </div>
     <div class="row pe-sm-3 pt-3">
@@ -55,11 +48,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { sites } from './data/sites'
 import { apps } from './data/apps'
 import { types } from './data/types'
+import F1 from './layouts/F1.vue'
 import Card from './components/Card.vue'
 import FilterItem from './components/FilterItem.vue'
 
 export default {
   components: {
+    F1,
     Card,
     FilterItem
   },
