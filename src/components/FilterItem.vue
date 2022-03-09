@@ -17,7 +17,7 @@ export default {
   background-color: hsl(216deg 30% 18%) !important;
   border-bottom: 1px solid hsl(216deg 30% 28%);
   text-decoration: none;
-  color: #ccc;
+  color: #f2f2f2;
   cursor: pointer;
   transition: 0.3s ease;
 }

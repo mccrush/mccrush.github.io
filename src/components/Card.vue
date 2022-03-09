@@ -58,7 +58,7 @@ export default {
 }
 
 .color-c {
-  color: #ccc;
+  color: #f2f2f2;
   transition: 0.3s ease;
 }
 

@@ -78,7 +78,9 @@ export default {
 body {
   color: #f2f2f2;
   /* background-color: #32425a; */
-  background-color: hsl(216deg, 30%, 26%);
+  /* background-color: hsl(216deg, 30%, 26%); */
+  background: rgb(46,62,86);
+background: radial-gradient(circle, rgba(46,62,86,1) 0%, rgba(32,43,60,1) 100%);
 }
 
 .logo {
