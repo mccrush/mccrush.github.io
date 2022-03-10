@@ -1,12 +1,12 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid p-0">
     <F1 />
     <F5 />
-    <div class="row pe-sm-3 pt-3">
+    <div class="row m-0 p-0 pt-3">
       <Card v-for="app in sites" :key="app.alias" :app="app" />
     </div>
     <h4 class="text-center mt-5">Приложения на домене mccrush.github.io</h4>
-    <div class="row">
+    <div class="row m-0 p-0">
       <div class="col-12 d-flex flex-wrap justify-content-center">
         <FilterItem
           v-for="type in types"
@@ -23,7 +23,7 @@
         />
       </div>
     </div>
-    <div class="row pe-sm-3">
+    <div class="row m-0 p-0">
       <Card v-for="app in filterApps" :key="app.alias" :app="app" />
     </div>
   </div>

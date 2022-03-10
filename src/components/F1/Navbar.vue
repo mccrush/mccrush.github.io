@@ -27,15 +27,15 @@
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link active" href="#services">Услуги</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#apps">Приложения</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#projects">Проекты</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#contacts">Контакты</a>
           </li>

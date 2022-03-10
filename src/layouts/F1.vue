@@ -1,5 +1,5 @@
 <template>
-  <div class="f1 row vh-100">
+  <div class="f1 row vh-100 m-0 p-0">
     <Navbar />
     <Present />
   </div>
