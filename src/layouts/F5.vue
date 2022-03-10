@@ -7,7 +7,13 @@
           WhatsApp
         </div>
         <div class="rounded-bottom my-border-success font-monospace p-1">
-          +7 906 940 4069
+          <a
+            class="link-git"
+            href="tel:79069404069"
+            target="_blank"
+            title="Позвонить"
+            >+79069404069</a
+          >
         </div>
       </div>
 
@@ -16,7 +22,13 @@
           Telegram
         </div>
         <div class="rounded-bottom my-border-blue font-monospace p-1">
-          mccrush
+          <a
+            class="link-git"
+            href="https://t.me/mccrush"
+            target="_blank"
+            title="Открыть в Телеграме"
+            >mccrush</a
+          >
         </div>
       </div>
 
@@ -25,7 +37,13 @@
           Email
         </div>
         <div class="rounded-bottom my-border-yellow font-monospace p-1">
-          mccrush@mail.ru
+          <a
+            class="link-git"
+            href="mailto:mccrush@mail.ru"
+            target="_blank"
+            title="Написать письмо"
+            >mccrush@mail.ru</a
+          >
         </div>
       </div>
 
@@ -76,9 +94,10 @@ export default {
 
 .link-git {
   color: #f2f2f2;
+  text-decoration: none;
 }
 
 .link-git:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 </style>

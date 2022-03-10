@@ -31,13 +31,16 @@
             <a class="nav-link active" href="#services">Услуги</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#apps">Приложения</a>
+            <a class="nav-link active" href="#apps">Приложения</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#projects">Проекты</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#contacts">Контакты</a>
+            <a class="nav-link active" href="#services">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contacts">Контакты</a>
           </li>
         </ul>
       </div>
