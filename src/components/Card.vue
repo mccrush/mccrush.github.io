@@ -1,10 +1,6 @@
 <template>
-  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-4 pe-sm-0">
-    <a
-      class="my-card d-block rounded shadow h-100"
-      :href="app.link"
-      target="_blank"
-    >
+  <div class="col-12 col-sm-6 col-lg-4 text-start mt-4 ps-1 pe-1">
+    <div class="my-card d-block rounded shadow h-100">
       <div class="my-card-body rounded-top h-75 p-3">
         <h5 class="color-c">{{ app.title }}</h5>
         <p class="card-text color-c lh-sm">
@@ -12,9 +8,12 @@
         </p>
       </div>
       <div class="my-card-footer rounded-bottom text-center p-2">
-        <span class="color-c font-monospace">{{ app.alias }}</span>
+        <span v-if="app.alias" class="color-c font-monospace">{{
+          app.alias
+        }}</span>
+        <span v-else class="color-c font-monospace">&nbsp;</span>
       </div>
-    </a>
+    </div>
   </div>
 </template>
 

@@ -1,8 +1,8 @@
 <template>
   <div class="f5">
-    <div class="container-960 row text-center m-0 m-auto ps-2 pt-3 pe-2 pb-3">
+    <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
       <h3 id="contacts">Контакты</h3>
-      <div class="col-12 col-sm-6 col-md-3 p-2">
+      <!-- <div class="col-12 col-sm-6 col-md-3 p-2">
         <div class="rounded-top my-border-success border-bottom-0 p-1">
           WhatsApp
         </div>
@@ -15,9 +15,9 @@
             >+79069404069</a
           >
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-12 col-sm-6 col-md-3 p-2">
+      <div class="col-12 col-sm-4 col-md-4 p-2">
         <div class="rounded-top my-border-blue border-bottom-0 p-1">
           Telegram
         </div>
@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-3 p-2">
+      <div class="col-12 col-sm-4 col-md-4 p-2">
         <div class="rounded-top my-border-yellow border-bottom-0 p-1">
           Email
         </div>
@@ -47,7 +47,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-3 p-2">
+      <div class="col-12 col-sm-4 col-md-4 p-2">
         <div class="rounded-top my-border-gray border-bottom-0 p-1">GitHub</div>
         <div class="rounded-bottom my-border-gray font-monospace p-1">
           <a

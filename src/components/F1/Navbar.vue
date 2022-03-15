@@ -28,13 +28,7 @@
       >
         <ul class="navbar-nav">
           <!-- <li class="nav-item">
-            <a class="nav-link active" href="#services">Услуги</a>
-          </li> -->
-          <li class="nav-item">
             <a class="nav-link active" href="#apps">Приложения</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#projects">Проекты</a>
           </li> -->
           <li class="nav-item">
             <a class="nav-link active" href="#services">Услуги</a>
