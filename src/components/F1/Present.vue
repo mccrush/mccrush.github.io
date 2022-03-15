@@ -43,7 +43,7 @@
       "
     >
       <img
-        src="images/1f/pair-programming.svg"
+        src="/images/1f/pair-programming.svg"
         alt="mccrush apps - разработка веб-приложений"
         class="mb-5"
       />
@@ -53,7 +53,8 @@
 
 <style scoped>
 .present {
-  height: calc(100vh - 64px);
+  height: calc(100vh - 70px);
+  /* height: calc(100vh - 64px); */
 }
 
 .fade-in-top {
