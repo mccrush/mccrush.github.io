@@ -1,8 +1,8 @@
 <template>
-  <div class="col-12 col-sm-6 col-lg-4 text-start mt-4 ps-1 pe-1">
+  <div class="col-12 col-sm-6 col-lg-4 mt-4 ps-1 pe-1">
     <div class="my-card d-block rounded shadow h-100">
       <div class="my-card-body rounded-top h-75 p-3">
-        <h5 class="color-c">{{ app.title }}</h5>
+        <!-- <h5 class="color-c">{{ app.title }}</h5> -->
         <p class="card-text color-c lh-sm">
           {{ app.description }}
         </p>
