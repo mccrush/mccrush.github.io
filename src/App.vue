@@ -1,5 +1,7 @@
 <template>
   <div class="container-fluid p-0">
+    <Navbar />
+    <component :is="page" />
     <F1 />
     <F3 />
     <F5 />
@@ -8,15 +10,24 @@
 
 <script>
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/interface/Navbar.vue'
+import PageDevel from './pages/PageDevel.vue'
 import F1 from './layouts/F1.vue'
 import F3 from './layouts/F3.vue'
 import F5 from './layouts/F5.vue'
 
 export default {
   components: {
+    Navbar,
+    PageDevel,
     F1,
     F3,
     F5
+  },
+  computed: {
+    page() {
+      return 'PageDevel'
+    }
   }
 }
 </script>
