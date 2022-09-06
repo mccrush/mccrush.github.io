@@ -1,7 +1,9 @@
 <template>
   <div class="container-fluid p-0">
     <Navbar />
-    <component :is="CurrentPage" />
+    <transition name="fade" mode="out-in" appear>
+      <component :is="currentPage" />
+    </transition>
     <F1 />
     <F3 />
     <F5 />
@@ -15,6 +17,8 @@ import { routes } from './router/routes.js'
 import Navbar from './components/interface/Navbar.vue'
 import PageIndex from './pages/PageIndex.vue'
 import PageDevel from './pages/PageDevel.vue'
+import PageElectric from './pages/PageElectric.vue'
+import PageTrello from './pages/PageTrello.vue'
 import F1 from './layouts/F1.vue'
 import F3 from './layouts/F3.vue'
 import F5 from './layouts/F5.vue'
@@ -24,6 +28,8 @@ export default {
     Navbar,
     PageIndex,
     PageDevel,
+    PageElectric,
+    PageTrello,
     F1,
     F3,
     F5
@@ -35,7 +41,7 @@ export default {
     }
   },
   computed: {
-    CurrentPage() {
+    currentPage() {
       return routes[this.currentRoute] || 'PageIndex'
     }
   }
@@ -66,6 +72,16 @@ btn:focus,
 
 .container-960 {
   max-width: 960px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
   
