@@ -1,10 +1,12 @@
 <template>
   <ul class="nav">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
-    </li>
     <li v-for="page in pages" :key="page.alias" class="nav-item">
-      <a class="nav-link" :href="page.href">{{ page.title }}</a>
+      <a
+        class="nav-link"
+        :href="page.href"
+        :class="{ active, 'bg-dark': page.href === currentLocation }"
+        >{{ page.title }}</a
+      >
     </li>
   </ul>
 </template>
@@ -15,8 +17,14 @@ import { pages } from './../../data/pages.js'
 export default {
   data() {
     return {
-      pages
+      pages,
+      currentLocation: window.location.pathname
     }
   }
+  // computed: {
+  //   CurrentPageInfo() {
+  //     return this.pages.filter(item => item.href === window.location.pathname)
+  //   }
+  // }
 }
 </script>
