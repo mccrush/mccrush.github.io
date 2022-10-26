@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid p-0">
-    <Navbar />
-    <transition name="fade" mode="out-in" appear>
+    <!-- <Navbar /> -->
+    <!-- <transition name="fade" mode="out-in" appear>
       <component :is="currentPage" />
-    </transition>
+    </transition> -->
     <F1 />
     <F3 />
     <F5 />
@@ -39,12 +39,12 @@ export default {
       routes,
       currentRoute: window.location.pathname
     }
-  },
-  computed: {
-    currentPage() {
-      return routes[this.currentRoute] || 'PageIndex'
-    }
   }
+  // computed: {
+  //   currentPage() {
+  //     return routes[this.currentRoute] || 'PageIndex'
+  //   }
+  // }
 }
 </script>
 
