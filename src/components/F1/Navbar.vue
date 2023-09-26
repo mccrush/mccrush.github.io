@@ -31,21 +31,42 @@
             <a class="nav-link active" href="#apps">Приложения</a>
           </li> -->
           <li class="nav-item m-auto">
-            <a class="nav-link active" href="#services">Услуги</a>
+            <a class="nav-link active ps-2 pe-2 pb-1" href="#services"
+              >Услуги</a
+            >
           </li>
           <li class="nav-item m-auto">
-            <a class="nav-link active" href="#contacts">Контакты</a>
+            <a class="nav-link active ps-2 pe-2 pb-1" href="#contacts"
+              >Контакты</a
+            >
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </template>
-<script>
-import Collapse from 'bootstrap/js/dist/collapse'
-</script>
+
 <style scoped>
 .nav {
   height: 64px;
+}
+
+.nav-link {
+  /* border: 1px solid; */
+  margin-right: 4px;
+  /* padding: 2px 8px 4px 8px; */
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: #202b3c;
+  box-shadow: inset 0px -1px 0px 0px rgb(50 67 93);
 }
 </style>

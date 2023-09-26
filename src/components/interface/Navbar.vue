@@ -28,3 +28,9 @@ export default {
   // }
 }
 </script>
+
+<style scoped>
+a.nav-link {
+  text-decoration: none !important;
+}
+</style>
