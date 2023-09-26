@@ -18,16 +18,23 @@
       </div> -->
 
       <div class="col-12 col-sm-4 col-md-4 p-2">
-        <div class="rounded-top my-border-blue border-bottom-0 p-1">
-          Telegram
+        <div class="rounded-top my-border-success border-bottom-0 p-1">
+          WhatsApp
         </div>
-        <div class="rounded-bottom my-border-blue font-monospace p-1">
-          <a
+        <div class="rounded-bottom my-border-success font-monospace p-1">
+          <!-- <a
             class="link-git"
             href="https://t.me/mccrush"
             target="_blank"
             title="Открыть в Телеграме"
             >mccrush</a
+          > -->
+          <a
+            class="link-git"
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=89069404069"
+            title="Написать в WhatsApp"
+            >89069404069</a
           >
         </div>
       </div>
@@ -63,17 +70,10 @@
   </div>
 </template>
 
-<script>
-//import Navbar from '../components/F5/Navbar.vue'
-
-export default {
-  components: {}
-}
-</script>
-
 <style scoped>
 .f5 {
-  background: rgba(29, 38, 53, 1);
+  background: #32435d;
+  /* background: rgba(29, 38, 53, 1); */
 }
 
 .my-border-success {

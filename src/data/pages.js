@@ -13,10 +13,5 @@ export const pages = [
     title: 'Электрика',
     href: '/electric',
     pos: 3
-  },
-  {
-    title: 'Trello',
-    href: '/trello',
-    pos: 4
   }
 ]

@@ -6,6 +6,7 @@
     </transition> -->
     <F1 />
     <F3 />
+    <F4 />
     <F5 />
   </div>
 </template>
@@ -21,6 +22,7 @@ import PageElectric from './pages/PageElectric.vue'
 import PageTrello from './pages/PageTrello.vue'
 import F1 from './layouts/F1.vue'
 import F3 from './layouts/F3.vue'
+import F4 from './layouts/F4.vue'
 import F5 from './layouts/F5.vue'
 
 export default {
@@ -32,6 +34,7 @@ export default {
     PageTrello,
     F1,
     F3,
+    F4,
     F5
   },
   data() {
