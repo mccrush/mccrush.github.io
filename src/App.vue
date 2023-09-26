@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import 'bootstrap/dist/css/bootstrap.min.css'
+//import 'bootstrap/dist/css/bootstrap.min.css'
 import { routes } from './router/routes.js'
 
 import Navbar from './components/interface/Navbar.vue'
@@ -50,7 +50,7 @@ export default {
 
 <style>
 body {
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
   background: rgb(46, 62, 86);
   background: radial-gradient(
     circle,
