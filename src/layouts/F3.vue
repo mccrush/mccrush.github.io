@@ -1,10 +1,9 @@
 <template>
   <div class="f3">
     <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
-      <h3 id="services">Услуги</h3>
+      <h3 id="services">Услуги разработки</h3>
       <p class="m-0">
-        Стоимость услуг: на регуляр­ной основе от 7500 р/месяц, сдельная работа
-        от 1000 р/час
+        На регуляр­ной основе от 8500&nbsp;р/мес, сдельная работа от 1500 р/час
       </p>
       <div class="col-12 m-0 p-0">
         <div class="row m-0 p-0">
