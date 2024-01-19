@@ -72,7 +72,7 @@
 
 <style scoped>
 .f5 {
-  background: #32435d;
+  background: var(--bg-color-light);
   /* background: rgba(29, 38, 53, 1); */
 }
 
@@ -93,7 +93,7 @@
 }
 
 .link-git {
-  color: #f2f2f2;
+  color: var(--text-color-light);
   text-decoration: none;
 }
 

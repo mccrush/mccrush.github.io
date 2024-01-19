@@ -4,6 +4,7 @@ import { Dropdown } from 'bootstrap'
 import { createApp } from 'vue'
 import App from './App.vue'
 
+
 let app
 
 if (!app) {

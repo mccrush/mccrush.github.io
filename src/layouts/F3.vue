@@ -32,6 +32,6 @@ export default {
 
 <style scoped>
 .f3 {
-  background: #32435d;
+  background: var(--bg-color-light);
 }
 </style>

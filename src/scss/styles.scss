@@ -5,13 +5,21 @@ $enable-shadows: true;
 //$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 
 // Customize some defaults
-$body-color: #f2f2f2;
-// $body-bg: radial-gradient(circle,
-//     rgba(46, 62, 86, 1) 0%,
-//     rgba(32, 43, 60, 1) 100%);
 
-//$border-radius: .4rem;
-//$success: #7952b3;
+$body-color: #f2f2f2;
+$popover-bg: #1d2635;
+$popover-border-color: #1d2635;
+
+:root {
+  --bg-color-light: #32435d;
+  --bg-color-medium: #2e3e56;
+  --bg-color-dark: #1d2635;
+  --bg-color-darkless: #202b3c;
+  --text-color-light: #f2f2f2;
+}
+
+
+
 
 //@import 'bootstrap/scss/bootstrap';
 
@@ -27,14 +35,14 @@ $body-color: #f2f2f2;
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/reboot";
 @import "bootstrap/scss/type";
-@import "bootstrap/scss/images";
+//@import "bootstrap/scss/images";
 @import "bootstrap/scss/containers";
 @import "bootstrap/scss/grid";
 @import "bootstrap/scss/helpers";
 
 @import "bootstrap/scss/tables";
 // @import "bootstrap/scss/forms";
-// @import "bootstrap/scss/buttons";
+@import "bootstrap/scss/buttons";
 @import "bootstrap/scss/transitions";
 //@import "bootstrap/scss/dropdown";
 // @import "bootstrap/scss/button-group";
@@ -46,8 +54,9 @@ $body-color: #f2f2f2;
 // @import "bootstrap/scss/progress";
 // @import "bootstrap/scss/list-group";
 // @import "bootstrap/scss/close";
-// @import "bootstrap/scss/modal";
+//@import "bootstrap/scss/modal";
 //@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/popover";
 
 
 @import "bootstrap/scss/utilities/api";
