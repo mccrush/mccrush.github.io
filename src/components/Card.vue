@@ -5,7 +5,7 @@
         class="my-card-body rounded-top align-items-center d-flex justify-content-center"
       >
         <!-- <h5 class="color-c">{{ app.title }}</h5> -->
-        <p class="card-text color-c lh-sm m-0 p-2 pt-5 pb-5">
+        <p class="card-text color-c lh-sm m-0 p-2 pt-3 pb-3 pt-md-5 pb-md-5">
           {{ app.description }}
         </p>
       </div>

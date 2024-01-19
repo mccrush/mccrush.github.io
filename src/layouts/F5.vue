@@ -2,33 +2,27 @@
   <div class="f5">
     <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
       <h3 id="contacts">Контакты</h3>
-      <!-- <div class="col-12 col-sm-6 col-md-3 p-2">
-        <div class="rounded-top my-border-success border-bottom-0 p-1">
-          WhatsApp
+
+      <div class="col-12 col-sm-6 col-md-3 p-2">
+        <div class="rounded-top my-border-blue border-bottom-0 p-1">
+          Telegram
         </div>
-        <div class="rounded-bottom my-border-success font-monospace p-1">
+        <div class="rounded-bottom my-border-blue font-monospace p-1">
           <a
             class="link-git"
-            href="tel:79069404069"
             target="_blank"
-            title="Позвонить"
-            >+79069404069</a
+            href="https://t.me/mccrush"
+            title="Написать в Telegram"
+            >mccrush</a
           >
         </div>
-      </div> -->
+      </div>
 
-      <div class="col-12 col-sm-4 col-md-4 p-2">
+      <div class="col-12 col-sm-6 col-md-3 p-2">
         <div class="rounded-top my-border-success border-bottom-0 p-1">
           WhatsApp
         </div>
         <div class="rounded-bottom my-border-success font-monospace p-1">
-          <!-- <a
-            class="link-git"
-            href="https://t.me/mccrush"
-            target="_blank"
-            title="Открыть в Телеграме"
-            >mccrush</a
-          > -->
           <a
             class="link-git"
             target="_blank"
@@ -39,7 +33,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-4 col-md-4 p-2">
+      <div class="col-12 col-sm-6 col-md-3 p-2">
         <div class="rounded-top my-border-yellow border-bottom-0 p-1">
           Email
         </div>
@@ -54,7 +48,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-4 col-md-4 p-2">
+      <div class="col-12 col-sm-6 col-md-3 p-2">
         <div class="rounded-top my-border-gray border-bottom-0 p-1">GitHub</div>
         <div class="rounded-bottom my-border-gray font-monospace p-1">
           <a
@@ -76,12 +70,12 @@
   /* background: rgba(29, 38, 53, 1); */
 }
 
-.my-border-success {
-  border: 1px solid var(--bs-green);
-}
-
 .my-border-blue {
   border: 1px solid var(--bs-blue);
+}
+
+.my-border-success {
+  border: 1px solid var(--bs-green);
 }
 
 .my-border-yellow {
