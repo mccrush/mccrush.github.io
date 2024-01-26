@@ -14,13 +14,13 @@
           <span class="border border-primary rounded-3 p-1 ps-2 pe-2 me-2"
             >CSS</span
           > -->
-          <span class="border border-danger rounded-3 p-1 ps-2 pe-2 me-2"
+          <span class="border border-danger rounded-2 p-1 ps-2 pe-2 me-2"
             >HTML + CSS</span
           >
-          <span class="border border-warning rounded-3 p-1 ps-2 pe-2 me-2"
+          <span class="border border-warning rounded-2 p-1 ps-2 pe-2 me-2"
             >JavaScript</span
           >
-          <span class="border border-success rounded-3 p-1 ps-2 pe-2 me-2"
+          <span class="border border-success rounded-2 p-1 ps-2 pe-2 me-2"
             >Vue.js</span
           >
         </div>
