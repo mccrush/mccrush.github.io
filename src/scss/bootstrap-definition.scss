@@ -1,0 +1,7 @@
+// Переопределение переменных Bootstrap
+
+@import "./colors";
+
+$body-color: $light;
+$popover-bg: $dark;
+$popover-border-color: $dark;

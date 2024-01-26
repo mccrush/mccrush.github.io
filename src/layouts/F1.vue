@@ -17,13 +17,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import './../scss/colors';
+
 .f1 {
-  background: var(--bg-color-dark);
-  background: radial-gradient(
-    circle,
-    var(--bg-color-light) 0%,
-    var(--bg-color-dark) 100%
-  );
+  background: $dark;
+  // background: radial-gradient(
+  //   circle,
+  //   var(--bg-color-light) 0%,
+  //   var(--bg-color-dark) 100%
+  // );
 }
 </style>

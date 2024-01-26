@@ -46,30 +46,7 @@ export default {
 }
 </script>
 
-<style>
-btn:focus,
-.btn-close:focus,
-.btn-check:focus + .btn-outline-dark,
-.form-control:focus,
-.form-select:focus,
-.accordion-button:focus,
-.navbar-toggler:focus {
-  outline: 0 !important;
-  box-shadow: none !important;
-}
-
-.container-960 {
-  max-width: 960px;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.3s ease;
-}
-
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
+<style lang="scss">
+@import './scss/common';
 </style>
   
