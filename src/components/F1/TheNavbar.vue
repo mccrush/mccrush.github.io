@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-sm p-0 pt-2">
-    <div class="container-960 container-lg align-items-center">
-      <div class="logo navbar-brand d-flex align-items-center">
+  <nav class="navbar navbar-expand-sm p-0">
+    <div class="container-960 container-lg align-items-center pt-2">
+      <div class="logo d-flex align-items-center">
         <img
           src="/logo_.png"
           alt="Logo mccrush apps"
@@ -9,7 +9,7 @@
           height="48"
           class="m-0 mt-1 me-2"
         />
-        <span class="fw-bold pb-1">mccrush apps</span>
+        <h5 class="fw-bold pt-1">mccrush apps</h5>
       </div>
       <button
         class="navbar-toggler"

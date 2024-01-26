@@ -1,28 +1,22 @@
 <template>
   <div
-    class="
-      present
-      container-960
-      d-flex
-      align-items-center
-      justify-content-around
-      m-auto
-      row
-    "
+    class="present container-960 d-flex align-items-center justify-content-around m-auto row"
   >
     <div
-      class="
-        present-left
-        d-flex
-        align-items-center
-        justify-content-center
-        h-100
-        col-12 col-sm-6
-      "
+      class="present-left d-flex align-items-center justify-content-center h-100 col-12 col-sm-6"
     >
       <div class="fade-in-bottom pb-5 mb-5">
         <h1 class="display-5 fw-bold lh-1">разработка<br />веб-приложений</h1>
         <div class="font-monospace mt-4">
+          <!-- <span class="border border-danger rounded-3 p-1 ps-2 pe-2 me-2"
+            >HTML</span
+          >
+          <span class="border border-primary rounded-3 p-1 ps-2 pe-2 me-2"
+            >CSS</span
+          > -->
+          <span class="border border-danger rounded-3 p-1 ps-2 pe-2 me-2"
+            >HTML + CSS</span
+          >
           <span class="border border-warning rounded-3 p-1 ps-2 pe-2 me-2"
             >JavaScript</span
           >
@@ -33,14 +27,7 @@
       </div>
     </div>
     <div
-      class="
-        fade-in-top
-        present-right
-        d-none d-sm-flex
-        align-items-center
-        h-100
-        col-sm-6
-      "
+      class="fade-in-top present-right d-none d-sm-flex align-items-center h-100 col-sm-6"
     >
       <img
         src="/images/1f/pair-programming.svg"
