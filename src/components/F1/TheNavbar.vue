@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark p-0 pt-2">
+  <nav class="navbar navbar-expand-sm p-0 pt-2">
     <div class="container-960 container-lg align-items-center">
       <div class="logo navbar-brand d-flex align-items-center">
         <img
@@ -27,18 +27,25 @@
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav">
-          <!-- <li class="nav-item">
-            <a class="nav-link active" href="#apps">Приложения</a>
-          </li> -->
-          <li class="nav-item m-auto">
-            <a class="nav-link active ps-2 pe-2 pb-1" href="#services"
-              >Услуги</a
+          <li v-for="item in menuItems" :key="item.href" class="nav-item me-2">
+            <a
+              class="nav-link btn btn-sm text-secondary ps-2 pe-2 pb-1"
+              :href="item.href"
             >
+              {{ item.title }}
+            </a>
           </li>
           <li class="nav-item m-auto">
-            <a class="nav-link active ps-2 pe-2 pb-1" href="#contacts"
-              >Контакты</a
-            >
+            <BtnSun
+              v-if="theme === 'dark'"
+              title="Переключить на светлую тему"
+              @click="changeTheme"
+            />
+            <BtnMoon
+              v-else
+              title="Переключить на темную тему"
+              @click="changeTheme"
+            />
           </li>
         </ul>
       </div>
@@ -46,15 +53,46 @@
   </nav>
 </template>
 
+<script>
+import { menuItems } from './../../data/menuItems'
+
+import BtnSun from './buttons/BtnSun.vue'
+import BtnMoon from './buttons/BtnMoon.vue'
+
+export default {
+  components: {
+    BtnSun,
+    BtnMoon
+  },
+  data() {
+    return {
+      menuItems,
+      theme: localStorage.getItem('mc-theme') || 'dark'
+    }
+  },
+  mounted() {
+    this.setTheme()
+  },
+  methods: {
+    changeTheme() {
+      this.theme = this.theme === 'dark' ? 'light' : 'dark'
+      this.setTheme()
+    },
+    setTheme() {
+      document.documentElement.setAttribute('data-bs-theme', this.theme)
+    }
+  }
+}
+</script>
+
+
 <style scoped>
-.nav {
+/* .nav {
   height: 64px;
 }
 
 .nav-link {
-  /* border: 1px solid; */
   margin-right: 4px;
-  /* padding: 2px 8px 4px 8px; */
   border-radius: 8px;
   text-decoration: none;
 }
@@ -66,7 +104,6 @@
 
 .nav-link:hover,
 .nav-link:active {
-  background-color: #202b3c;
   box-shadow: inset 0px -1px 0px 0px rgb(50 67 93);
-}
+} */
 </style>

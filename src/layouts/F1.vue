@@ -1,31 +1,31 @@
 <template>
   <div class="f1 row vh-100 m-0 p-0">
-    <Navbar />
+    <TheNavbar />
     <Present />
   </div>
 </template>
 
 <script>
-import Navbar from './../components/F1/Navbar.vue'
+import TheNavbar from './../components/F1/TheNavbar.vue'
 import Present from './../components/F1/Present.vue'
 
 export default {
   components: {
-    Navbar,
+    TheNavbar,
     Present
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import './../scss/colors';
+// @import './../scss/colors';
 
-.f1 {
-  background: $dark;
-  // background: radial-gradient(
-  //   circle,
-  //   var(--bg-color-light) 0%,
-  //   var(--bg-color-dark) 100%
-  // );
-}
+// .f1 {
+//   background: $dark;
+//   background: radial-gradient(
+//     circle,
+//     var(--bg-color-light) 0%,
+//     var(--bg-color-dark) 100%
+//   );
+// }
 </style>
