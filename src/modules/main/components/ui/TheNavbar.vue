@@ -28,10 +28,7 @@
       >
         <ul class="navbar-nav">
           <li v-for="item in menuItems" :key="item.href" class="nav-item me-2">
-            <a
-              class="nav-link btn btn-sm text-secondary ps-2 pe-2 pb-1"
-              :href="item.href"
-            >
+            <a class="nav-link btn btn-sm ps-2 pe-2 pb-1" :href="item.href">
               {{ item.title }}
             </a>
           </li>
