@@ -1,18 +1,18 @@
 <template>
   <div class="f1 row vh-100 m-0 p-0">
     <TheNavbar />
-    <Present />
+    <ThePresent />
   </div>
 </template>
 
 <script>
-import TheNavbar from './../components/F1/TheNavbar.vue'
-import Present from './../components/F1/Present.vue'
+import TheNavbar from './components/ui/TheNavbar.vue'
+import ThePresent from './components/ui/ThePresent.vue'
 
 export default {
   components: {
     TheNavbar,
-    Present
+    ThePresent
   }
 }
 </script>

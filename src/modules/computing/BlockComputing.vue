@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import { computing } from '../data/computing'
+import { computing } from '../../data/computing'
 import { Popover } from 'bootstrap'
 
 export default {

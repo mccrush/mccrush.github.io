@@ -54,10 +54,10 @@
 </template>
 
 <script>
-import { menuItems } from './../../data/menuItems'
+import { menuItems } from './../../../../data/menuItems'
 
-import BtnSun from './buttons/BtnSun.vue'
-import BtnMoon from './buttons/BtnMoon.vue'
+import BtnSun from './../buttons/BtnSun.vue'
+import BtnMoon from './../buttons/BtnMoon.vue'
 
 export default {
   components: {

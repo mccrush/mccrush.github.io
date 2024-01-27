@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import { services } from '../data/services'
-import Card from '../components/Card.vue'
+import { services } from './../../data/services'
+import Card from './../../components/Card.vue'
 
 export default {
   components: {

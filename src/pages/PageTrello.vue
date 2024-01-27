@@ -1,5 +1,0 @@
-<template>
-  <div class="row">
-    <h2>Page Trello</h2>
-  </div>
-</template>
