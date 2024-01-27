@@ -17,7 +17,7 @@
           <li class="d-flex align-items-center">
             <IconGithub />
             <a
-              class="link-git"
+              class="link-git link-offset-2"
               href="https://github.com/mccrush"
               target="_blank"
               title="Открыть GitHub"
@@ -27,7 +27,7 @@
           <li class="d-flex align-items-center">
             <IconYoutube />
             <a
-              class="link-git"
+              class="link-git link-offset-2"
               href="https://www.youtube.com/@mccrush2027/videos"
               target="_blank"
               title="Открыть YouTube"
@@ -43,7 +43,7 @@
           <li class="d-flex align-items-center">
             <IconTelegram />
             <a
-              class="link-git"
+              class="link-git link-offset-2"
               target="_blank"
               href="https://t.me/mccrush"
               title="Написать в Telegram"
@@ -53,7 +53,7 @@
           <li class="d-flex align-items-center">
             <IconWhatsapp />
             <a
-              class="link-git"
+              class="link-git link-offset-2"
               target="_blank"
               href="https://api.whatsapp.com/send?phone=89069404069"
               title="Написать в WhatsApp"
@@ -63,7 +63,7 @@
           <li class="d-flex align-items-center">
             <IconEmail />
             <a
-              class="link-git"
+              class="link-git link-offset-2"
               href="mailto:mccrush@mail.ru"
               target="_blank"
               title="Написать письмо"
