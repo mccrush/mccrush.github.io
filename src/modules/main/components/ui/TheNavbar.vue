@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-sm p-0">
-    <div class="container-960 container-lg align-items-center pt-2">
-      <div class="logo d-flex align-items-center">
+  <nav class="navbar p-0">
+    <div class="container-960 container-lg d-flex align-items-center pt-2">
+      <div class="logo d-flex align-items-center border">
         <img
           src="/logo_.png"
           alt="Logo mccrush apps"
@@ -11,7 +11,7 @@
         />
         <h5 class="fw-bold pt-1">mccrush apps</h5>
       </div>
-      <button
+      <!-- <button
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -21,9 +21,9 @@
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
       <div
-        class="collapse navbar-collapse justify-content-end"
+        class="d-flex justify-content-end border"
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav">
