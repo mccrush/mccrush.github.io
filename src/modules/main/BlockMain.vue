@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import TheNavbar from './components/ui/TheNavbar2.vue'
+import TheNavbar from './components/ui/TheNavbar.vue'
 import ThePresent from './components/ui/ThePresent.vue'
 
 export default {
