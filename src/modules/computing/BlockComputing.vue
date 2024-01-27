@@ -1,5 +1,5 @@
 <template>
-  <div class="f4">
+  <div class="f4 mb-5">
     <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
       <h3 id="computing">Услуги настройки ПК</h3>
 
