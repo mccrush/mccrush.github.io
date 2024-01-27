@@ -3,11 +3,11 @@
     <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
       <h3 id="services">Услуги разработки</h3>
       <p class="m-0">
-        На регуляр­ной основе от 8500&nbsp;р/мес, сдельная работа от 1500 р/час
+        На регуляр­ной основе от 8500&nbsp;₽/мес, сдельная работа от 1500 ₽/час
       </p>
       <div class="col-12 m-0 p-0">
         <div class="row m-0 p-0">
-          <Card v-for="app in services" :key="app.alias" :app="app" />
+          <ServicesCard v-for="app in services" :key="app.alias" :app="app" />
         </div>
       </div>
     </div>
@@ -16,11 +16,11 @@
 
 <script>
 import { services } from './../../data/services'
-import Card from './../../components/Card.vue'
+import ServicesCard from './components/ui/ServicesCard.vue'
 
 export default {
   components: {
-    Card
+    ServicesCard
   },
   data() {
     return {

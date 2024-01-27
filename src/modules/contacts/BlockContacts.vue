@@ -2,7 +2,7 @@
   <div class="f5">
     <div
       id="contacts"
-      class="container-960 row text-center border-top m-0 m-auto ps-2 pt-5 pe-2 pb-4"
+      class="container-960 row text-center border-top m-0 m-auto ps-2 pt-4 pe-2 pb-4"
     >
       <!-- <h3 id="contacts">Контакты</h3> -->
       <div class="col-sm-4 col-md-6 d-none d-sm-block text-start">

@@ -28,7 +28,7 @@
         </div>
       </div>
 
-      <div class="col-md-6 d-none d-md-block p-0 pt-3 pe-2">
+      <div class="col-md-6 d-none d-md-block p-0 ps-2 pt-3 pe-2">
         <div class="border-top-light shadow rounded p-2">
           <div
             v-for="comp in computing.slice(0, 4)"
@@ -53,7 +53,7 @@
         </div>
       </div>
 
-      <div class="col-md-6 d-none d-md-block p-0 pt-3 ps-2">
+      <div class="col-md-6 d-none d-md-block p-0 pt-3 ps-2 pe-2">
         <div class="border-top-light shadow rounded-2 p-2">
           <div
             v-for="comp in computing.slice(4)"
