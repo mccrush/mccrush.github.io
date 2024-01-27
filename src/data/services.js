@@ -9,7 +9,7 @@ export const services = [
   },
   {
     title: 'Администри­рование',
-    description: 'Администри­рование<br>и сопровождение веб-сайта',
+    description: 'Администри­рование<br>и сопровождение веб-сайтов',
     alias: 'adm',
     link: '#',
     type: '',
