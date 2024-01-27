@@ -4,7 +4,7 @@
       <h3 id="computing">Услуги настройки ПК</h3>
 
       <div class="col-12 d-md-none m-auto p-0 pt-3">
-        <div class="shadow rounded-2 p-2">
+        <div class="shadow rounded p-2">
           <div
             v-for="comp in computing"
             :key="comp.id"
@@ -28,8 +28,8 @@
         </div>
       </div>
 
-      <div class="col-md-6 d-none d-md-block p-0 pt-3">
-        <div class="shadow rounded-2 p-2">
+      <div class="col-md-6 d-none d-md-block p-0 pt-3 pe-2">
+        <div class="shadow rounded p-2">
           <div
             v-for="comp in computing.slice(0, 4)"
             :key="comp.id"
@@ -53,7 +53,7 @@
         </div>
       </div>
 
-      <div class="col-md-6 d-none d-md-block p-0 pt-3">
+      <div class="col-md-6 d-none d-md-block p-0 pt-3 ps-2">
         <div class="shadow rounded-2 p-2">
           <div
             v-for="comp in computing.slice(4)"

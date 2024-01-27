@@ -1,21 +1,21 @@
 export const services = [
   {
-    title: '',
-    description: 'Разработка веб-приложений',
+    title: 'Разработка',
+    description: 'Разработка веб-сайтов<br> и веб-приложений',
     alias: '',
     link: '#',
     type: ''
   },
   {
-    title: '',
-    description: 'Администри­рование веб-сайтов',
+    title: 'Администри­рование',
+    description: 'Администри­рование<br>и сопровождение веб-сайта',
     alias: '',
     link: '#',
     type: ''
   },
   {
-    title: '',
-    description: 'Поддержка веб-приложений',
+    title: 'Поддержка',
+    description: 'Техническая поддержка<br> веб-приложений',
     alias: '',
     link: '#',
     type: ''

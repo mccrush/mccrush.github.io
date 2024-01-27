@@ -1,21 +1,12 @@
 <template>
   <div class="col-12 col-sm-4 col-lg-4 mt-4 ps-2 pe-2">
-    <div class="my-card d-block rounded shadow-sm">
-      <div
+    <div class="d-block shadow rounded text-start p-4">
+      <!-- <div
         class="my-card-body rounded-top align-items-center d-flex justify-content-center"
-      >
-        <!-- <h5 class="color-c">{{ app.title }}</h5> -->
-        <p class="card-text color-c lh-sm m-0 p-2 pt-3 pb-3 pt-md-5 pb-md-5">
-          {{ app.description }}
-        </p>
-      </div>
-      <div class="my-card-footer rounded-bottom text-center">
-        <!-- <span v-if="app.alias" class="color-c font-monospace">{{
-          app.alias
-        }}</span>
-        <span v-else class="color-c font-monospace"></span> -->
-        &nbsp;
-      </div>
+      > -->
+      <h5 class="">{{ app.title }}</h5>
+      <p class="m-0" v-html="app.description"></p>
+      <!-- </div> -->
     </div>
   </div>
 </template>
