@@ -27,7 +27,7 @@ export const computing = [
     id: '6',
     title: 'Установка дополнительных программ',
     desc: 'Microsoft Office, Photoshop и т.п.',
-    price: '1000'
+    price: '500'
   },
   {
     id: '5',
