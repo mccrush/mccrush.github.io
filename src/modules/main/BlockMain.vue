@@ -17,15 +17,18 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-// @import './../scss/colors';
+<style scoped>
+/* [data-bs-theme='dark'] .f1 {
+  background-image: radial-gradient(
+    154.86% 76.83% at 50% 22.26%,
+    hsla(240, 7%, 97%, 0.4) 8.98%,
+    #f7f7f8 45.99%
+  );
+} */
 
-// .f1 {
-//   background: $dark;
-//   background: radial-gradient(
-//     circle,
-//     var(--bg-color-light) 0%,
-//     var(--bg-color-dark) 100%
-//   );
-// }
+/* @import './../scss/colors'; */
+
+[data-bs-theme='dark'] .f1 {
+  background: radial-gradient(circle, #343a40 0%, #212529 46%);
+}
 </style>

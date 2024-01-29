@@ -1,7 +1,7 @@
 <template>
-  <div class="f3">
+  <div class="f3 pt-5 pb-5" id="services">
     <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
-      <h3 id="services">Услуги разработки</h3>
+      <h3>Услуги разработки</h3>
       <p class="m-0">
         На регуляр­ной основе от 8500&nbsp;₽/мес, сдельная работа от 1500 ₽/час
       </p>
@@ -31,7 +31,8 @@ export default {
 </script>
 
 <style scoped>
-.f3 {
-  background: var(--bg-color-light);
+[data-bs-theme='light'] .f3 {
+  background: #212529;
+  color: #dee2e6;
 }
 </style>
