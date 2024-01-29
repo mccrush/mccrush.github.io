@@ -1,14 +1,14 @@
 <template>
-  <div class="f5">
+  <div class="f5 pb-3">
     <div
       id="contacts"
-      class="container-960 row text-center border-top m-0 m-auto ps-2 pt-4 pe-2 pb-4"
+      class="container-960 row text-center border-top m-0 m-auto ps-2 pt-5 pe-2 pb-4"
     >
       <!-- <h3 id="contacts">Контакты</h3> -->
       <div class="col-sm-4 col-md-6 d-none d-sm-block text-start">
         <h5>mccrush apps</h5>
         <p class="mb-2">разработка веб-приложений</p>
-        <p class="text-muted small">&copy; 2024</p>
+        <p class="small">&copy; 2024</p>
       </div>
 
       <div class="col-12 col-sm-4 col-md-3 text-start">
@@ -101,6 +101,16 @@ export default {
 </script>
 
 <style scoped>
+[data-bs-theme='light'] .f5 {
+  background: #212529;
+  color: #dee2e6;
+  border-top: none !important;
+}
+
+[data-bs-theme='light'] #contacts {
+  border: none !important;
+}
+
 .link-git {
   color: var(--text-color-light);
   padding-left: 8px;

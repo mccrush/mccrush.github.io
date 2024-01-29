@@ -56,15 +56,13 @@
   position: absolute;
   width: 50%;
   height: 100%;
-  top: 0%;
   left: 0%;
   z-index: -1;
   background: url(/images/1f/circuit-components@2xl.288e1b6c.webp),
     url(/images/1f/circuit-lines@2xl.ee1ad3dd.webp);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left bottom;
   background-size: 969px;
-  transform: rotate(0deg);
 }
 
 [data-bs-theme='light'] .present::after {
@@ -72,15 +70,13 @@
   position: absolute;
   width: 50%;
   height: 100%;
-  top: 0;
   right: 0;
   z-index: -1;
   background: url(/images/1f/circuit-components@2xl.288e1b6c.webp),
     url(/images/1f/circuit-lines@2xl.ee1ad3dd.webp);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right bottom;
   background-size: 969px;
-  transform: rotate(0deg);
   transform: scaleX(-1);
 }
 
