@@ -45,7 +45,48 @@
 .present {
   height: calc(100vh - 70px);
   /* height: calc(100vh - 64px); */
+  /* background-image: url(/images/1f/circuit-components@2xl.288e1b6c.webp),
+    url(/images/1f/circuit-lines@2xl.ee1ad3dd.webp);
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
+
+[data-bs-theme='light'] .present::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  background: url(/images/1f/circuit-components@2xl.288e1b6c.webp),
+    url(/images/1f/circuit-lines@2xl.ee1ad3dd.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 969px;
+  transform: rotate(0deg);
+}
+
+[data-bs-theme='light'] .present::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: url(/images/1f/circuit-components@2xl.288e1b6c.webp),
+    url(/images/1f/circuit-lines@2xl.ee1ad3dd.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 969px;
+  transform: rotate(0deg);
+  transform: scaleX(-1);
+}
+
+/* [data-bs-theme='dark'] .present {
+  color: red;
+} */
 
 .fade-in-top {
   -webkit-animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
