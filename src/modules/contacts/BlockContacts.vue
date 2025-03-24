@@ -76,7 +76,7 @@
       <div class="col-12 d-sm-none text-start mt-4">
         <h5>mccrush apps</h5>
         <p class="mb-2">разработка веб-приложений</p>
-        <p class="text-muted small">&copy; 2024</p>
+        <p class="text-muted small">&copy; 2010–2025</p>
       </div>
     </div>
   </div>
