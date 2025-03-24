@@ -8,7 +8,7 @@
       <div class="col-sm-4 col-md-6 d-none d-sm-block text-start">
         <h5>mccrush apps</h5>
         <p class="mb-2">разработка веб-приложений</p>
-        <p class="small">&copy; 2024</p>
+        <p class="small">&copy; 2010–2025</p>
       </div>
 
       <div class="col-12 col-sm-4 col-md-3 text-start">
