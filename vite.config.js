@@ -6,5 +6,18 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     outDir: 'docs'
-  }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        silenceDeprecations: [
+          'import',
+          'color-functions',
+          'global-builtin',
+          'legacy-js-api',
+          'if-function'
+        ],
+      },
+    },
+  },
 })
