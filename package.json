@@ -8,17 +8,20 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8",
-    "vue": "^3.5.25"
+    "vue": "^3.5.38"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.3",
-    "sass": "^1.97.0",
-    "vite": "^7.3.0"
+    "@vitejs/plugin-vue": "^6.0.7",
+    "happy-dom": "^20.10.6",
+    "sass": "^1.101.0",
+    "vite": "^8.0.16",
+    "vitest": "^4.1.9"
   },
   "repository": {
     "type": "git",
