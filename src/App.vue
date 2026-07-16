@@ -9,8 +9,8 @@ import BlockContacts from './modules/contacts/BlockContacts.vue'
 <template>
   <div class="container-fluid p-0">
     <BlockMain />
-    <Block_apps />
     <BlockServices />
+    <Block_apps />
     <!-- <BlockComputing /> -->
     <BlockContacts />
   </div>

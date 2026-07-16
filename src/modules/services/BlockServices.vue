@@ -1,9 +1,14 @@
+<script setup>
+import { services } from './../../data/services'
+import ServicesCard from './components/ui/ServicesCard.vue'
+</script>
+
 <template>
   <div class="f3 pt-5 pb-5" id="services">
     <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
-      <h3>Услуги разработки</h3>
+      <h3>Профессиональная разработка</h3>
       <p class="m-0">
-        На регуляр­ной основе от 15000&nbsp;₽/мес, сдельная работа от 2500 ₽/час
+        На регуляр­ной основе от 12500&nbsp;₽/мес, сдельная работа от 1500 ₽/час
       </p>
       <div class="col-12 m-0 p-0">
         <div class="row m-0 p-0">
@@ -13,22 +18,6 @@
     </div>
   </div>
 </template>
-
-<script>
-import { services } from './../../data/services'
-import ServicesCard from './components/ui/ServicesCard.vue'
-
-export default {
-  components: {
-    ServicesCard
-  },
-  data() {
-    return {
-      services
-    }
-  }
-}
-</script>
 
 <style scoped>
 [data-bs-theme='light'] .f3 {

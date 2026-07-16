@@ -2,8 +2,7 @@
   <div class="f5 pb-3">
     <div
       id="contacts"
-      class="container-960 row text-center border-top m-0 m-auto ps-2 pt-5 pe-2 pb-4"
-    >
+      class="container-960 row text-center border-top m-0 m-auto ps-2 pt-5 pe-2 pb-4">
       <!-- <h3 id="contacts">Контакты</h3> -->
       <div class="col-sm-4 col-md-6 d-none d-sm-block text-start">
         <h5>mccrush apps</h5>
@@ -50,7 +49,7 @@
               >Telegram</a
             >
           </li>
-          <li class="d-flex align-items-center">
+          <!-- <li class="d-flex align-items-center">
             <IconWhatsapp />
             <a
               class="link-git link-offset-2"
@@ -59,7 +58,7 @@
               title="Написать в WhatsApp"
               >WhatsApp</a
             >
-          </li>
+          </li> -->
           <li class="d-flex align-items-center">
             <IconEmail />
             <a

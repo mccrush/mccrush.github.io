@@ -34,7 +34,7 @@
   "prettier": {
     "singleQuote": true,
     "semi": false,
-    "jsxBracketSameLine": true,
+    "bracketSameLine": true,
     "arrowParens": "avoid",
     "trailingComma": "none"
   },
