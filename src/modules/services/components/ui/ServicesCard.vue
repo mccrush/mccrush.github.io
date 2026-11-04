@@ -1,35 +1,21 @@
+<script setup>
+defineProps({ app: { type: Object, required: true } })
+</script>
+
 <template>
   <div class="col-12 col-sm-6 col-md-4 mt-4 ps-2 pe-2">
-    <div class="d-block rounded-0 text-start border p-4 pt-3">
-      <h4>
-        <component :is="icon" class="" />
-      </h4>
-      <h5 class="">{{ app.title }}</h5>
-      <p class="m-0" v-html="app.description"></p>
+    <div class="d-block rounded-0 text-start border p-4 pt-4">
+      <div class="d-flex justify-content-between align-items-baseline">
+        <h5 class="d-inline bg-dark-subtle rounded-3 px-2 py-1">
+          <i class="bi" :class="app.icon"></i>
+        </h5>
+        <p v-if="app.price" class="fw-bold text-success m-0 p-0">
+          {{ app.price }} ₽
+        </p>
+      </div>
+
+      <h5 class="mt-2">{{ app.title }}</h5>
+      <p class="lh-sm m-0" v-html="app.description"></p>
     </div>
   </div>
 </template>
-
-<script>
-import IconDev from './../icons/IconDev.vue'
-import IconAdm from './../icons/IconAdm.vue'
-import IconHlp from './../icons/IconHlp.vue'
-
-export default {
-  components: {
-    IconDev,
-    IconAdm,
-    IconHlp
-  },
-  props: {
-    app: {
-      type: Object
-    }
-  },
-  computed: {
-    icon() {
-      return this.app.icon
-    }
-  }
-}
-</script>

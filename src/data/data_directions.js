@@ -5,7 +5,7 @@ export const directions = [
     alias: 'dev',
     link: '#',
     type: '',
-    icon: 'IconDev'
+    icon: 'bi-code'
   },
   {
     title: 'Администри­рование',
@@ -13,7 +13,7 @@ export const directions = [
     alias: 'adm',
     link: '#',
     type: '',
-    icon: 'IconAdm'
+    icon: 'bi-gear'
   },
   {
     title: 'Поддержка',
@@ -21,6 +21,6 @@ export const directions = [
     alias: 'hlp',
     link: '#',
     type: '',
-    icon: 'IconHlp'
+    icon: 'bi-person'
   }
 ]

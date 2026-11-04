@@ -6,9 +6,9 @@ import ServicesCard from './components/ui/ServicesCard.vue'
 <template>
   <div class="f3 pt-5 pb-5" id="services">
     <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
-      <h3>Направления деятельности</h3>
+      <h3>Оказываемые услуги</h3>
       <p class="m-0">
-        Работа с юр. и физ. лицам. Сдельная работа от 1500 ₽/час
+        Сдельная работа от 1500 ₽/час или фиксированная стоимость за услугу
       </p>
       <div class="col-12 m-0 p-0">
         <div class="row m-0 p-0">

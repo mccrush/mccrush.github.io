@@ -3,16 +3,13 @@
     <div
       id="contacts"
       class="container-960 row text-center border-top m-0 m-auto ps-2 pt-5 pe-2 pb-4">
-      <!-- <h3 id="contacts">Контакты</h3> -->
       <div class="col-sm-4 col-md-6 d-none d-sm-block text-start">
         <h5>mccrush apps</h5>
-        <!-- <p class="mb-2">разработка веб-приложений</p>
-        <p class="small">&copy; 2010–2026</p> -->
         <ul class="list-unstyled">
           <li class="d-flex align-items-center">
             <span>разработка веб-приложений</span>
           </li>
-          <li class="d-flex small align-items-center">
+          <li class="d-flex align-items-center">
             <span>&copy; 2010–2026</span>
           </li>
         </ul>
@@ -31,16 +28,6 @@
               >GitHub</a
             >
           </li>
-          <!-- <li class="d-flex align-items-center">
-            <IconYoutube />
-            <a
-              class="link-git link-offset-2"
-              href="https://www.youtube.com/@mccrush2027/videos"
-              target="_blank"
-              title="Открыть YouTube"
-              >YouTube</a
-            >
-          </li> -->
           <li class="d-flex align-items-center">
             <IconX />
             <a
@@ -67,16 +54,6 @@
               >Telegram</a
             >
           </li>
-          <!-- <li class="d-flex align-items-center">
-            <IconWhatsapp />
-            <a
-              class="link-git link-offset-2"
-              target="_blank"
-              href="https://api.whatsapp.com/send?phone=89069404069"
-              title="Написать в WhatsApp"
-              >WhatsApp</a
-            >
-          </li> -->
           <li class="d-flex align-items-center">
             <IconEmail />
             <a
@@ -93,7 +70,7 @@
       <div class="col-12 d-sm-none text-start mt-4">
         <h5>mccrush apps</h5>
         <p class="mb-2">разработка веб-приложений</p>
-        <p class="text-muted small">&copy; 2010–2025</p>
+        <p class="text-muted small">&copy; 2010–2026</p>
       </div>
     </div>
   </div>
@@ -118,16 +95,6 @@ export default {
 </script>
 
 <style scoped>
-[data-bs-theme='light'] .f5 {
-  background: #212529;
-  color: #dee2e6;
-  border-top: none !important;
-}
-
-[data-bs-theme='light'] #contacts {
-  border: none !important;
-}
-
 .link-git {
   color: var(--text-color-light);
   padding-left: 8px;
