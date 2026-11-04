@@ -9,24 +9,21 @@
               alt="Logo mccrush apps"
               width="48"
               height="48"
-              class="m-0 mt-1 me-2"
-            />
+              class="m-0 mt-1 me-2" />
             <h5 class="fw-bold pt-1">mccrush apps</h5>
           </div>
         </div>
         <div
-          class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end align-items-center mt-2 mt-sm-0"
-        >
+          class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end align-items-center mt-2 mt-sm-0">
           <div class="d-flex justify-content-end align-items-center">
             <div v-for="item in menuItems" :key="item.href" class="me-2">
               <a
-                class="list-inline-item btn btn-sm ps-2 pe-2 pb-1"
-                :href="item.href"
-              >
+                class="list-inline-item btn btn-sm btn-dark rounded-0 border-top-0 border ps-2 pe-2 pb-1"
+                :href="item.href">
                 {{ item.title }}
               </a>
             </div>
-            <div class="list-inline-item">
+            <!-- <div class="list-inline-item">
               <BtnSun
                 v-if="theme === 'dark'"
                 title="Переключить на светлую тему"
@@ -37,7 +34,7 @@
                 title="Переключить на темную тему"
                 @click="changeTheme"
               />
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

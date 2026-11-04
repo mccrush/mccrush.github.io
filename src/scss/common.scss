@@ -1,5 +1,15 @@
 // Переопределение общих стилей Bootstrap
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(to bottom, rgba(255, 255, 255, 0.003) 0 1px, transparent 1px 3px);
+  z-index: 100;
+}
+
+
 btn:focus,
 .btn-close:focus,
 .btn-check:focus+.btn-outline-dark,
@@ -17,6 +27,10 @@ btn:focus,
 
 .border-top-light {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.border {
+  border-color: color(srgb 0.3 0.3 0.3 / 0.5) !important;
 }
 
 .fade-enter-active,

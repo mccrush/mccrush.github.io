@@ -1,6 +1,6 @@
 <template>
   <div class="col-12 col-sm-6 col-md-4 mt-4 ps-2 pe-2">
-    <div class="border-top-light d-block shadow-sm rounded text-start p-4 pt-3">
+    <div class="d-block rounded-0 text-start border p-4 pt-3">
       <h4>
         <component :is="icon" class="" />
       </h4>

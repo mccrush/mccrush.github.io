@@ -6,8 +6,16 @@
       <!-- <h3 id="contacts">Контакты</h3> -->
       <div class="col-sm-4 col-md-6 d-none d-sm-block text-start">
         <h5>mccrush apps</h5>
-        <p class="mb-2">разработка веб-приложений</p>
-        <p class="small">&copy; 2010–2026</p>
+        <!-- <p class="mb-2">разработка веб-приложений</p>
+        <p class="small">&copy; 2010–2026</p> -->
+        <ul class="list-unstyled">
+          <li class="d-flex align-items-center">
+            <span>разработка веб-приложений</span>
+          </li>
+          <li class="d-flex small align-items-center">
+            <span>&copy; 2010–2026</span>
+          </li>
+        </ul>
       </div>
 
       <div class="col-12 col-sm-4 col-md-3 text-start">
@@ -23,7 +31,7 @@
               >GitHub</a
             >
           </li>
-          <li class="d-flex align-items-center">
+          <!-- <li class="d-flex align-items-center">
             <IconYoutube />
             <a
               class="link-git link-offset-2"
@@ -31,6 +39,16 @@
               target="_blank"
               title="Открыть YouTube"
               >YouTube</a
+            >
+          </li> -->
+          <li class="d-flex align-items-center">
+            <IconX />
+            <a
+              class="link-git link-offset-2"
+              href="https://x.com/mccrush2027"
+              target="_blank"
+              title="Открыть X"
+              >Twitter</a
             >
           </li>
         </ul>
@@ -83,7 +101,7 @@
 
 <script>
 import IconGithub from './components/icons/IconGithub.vue'
-import IconYoutube from './components/icons/IconYoutube.vue'
+import IconX from './components/icons/IconX.vue'
 import IconTelegram from './components/icons/IconTelegram.vue'
 import IconWhatsapp from './components/icons/IconWhatsapp.vue'
 import IconEmail from './components/icons/IconEmail.vue'
@@ -91,7 +109,7 @@ import IconEmail from './components/icons/IconEmail.vue'
 export default {
   components: {
     IconGithub,
-    IconYoutube,
+    IconX,
     IconTelegram,
     IconWhatsapp,
     IconEmail
