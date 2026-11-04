@@ -3,7 +3,7 @@ export const services = [
     id: '1',
     title: 'Настройка домена',
     description: 'Регистрация домена, настройка DNS, подключение к сайту',
-    price: '2580',
+    price: '2620',
     icon: 'bi-globe-asia-australia-fill'
   },
   {
@@ -24,7 +24,7 @@ export const services = [
     id: '4',
     title: 'Настройка Supabase',
     description: 'Установка и конфигурация Supabase Self-Hosting',
-    price: '5065',
+    price: '5170',
     icon: 'bi-database'
   },
 ]
