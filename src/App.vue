@@ -1,17 +1,17 @@
 <script setup>
 import BlockMain from './modules/main/BlockMain.vue'
-import Block_apps from './modules/apps/Block_apps.vue'
+import BlockApps from './modules/apps/BlockApps.vue'
+import BlockDirections from './modules/directions/BlockDirections.vue'
 import BlockServices from './modules/services/BlockServices.vue'
-//import BlockComputing from './modules/computing/BlockComputing.vue'
 import BlockContacts from './modules/contacts/BlockContacts.vue'
 </script>
 
 <template>
   <div class="container-fluid p-0">
     <BlockMain />
+    <BlockDirections />
     <BlockServices />
-    <Block_apps />
-    <!-- <BlockComputing /> -->
+    <BlockApps />
     <BlockContacts />
   </div>
 </template>

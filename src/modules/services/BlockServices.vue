@@ -1,14 +1,14 @@
 <script setup>
-import { services } from './../../data/services'
+import { services } from './../../data/data_services'
 import ServicesCard from './components/ui/ServicesCard.vue'
 </script>
 
 <template>
   <div class="f3 pt-5 pb-5" id="services">
     <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
-      <h3>Профессиональная разработка</h3>
+      <h3>Направления деятельности</h3>
       <p class="m-0">
-        На регуляр­ной основе от 12500&nbsp;₽/мес, сдельная работа от 1500 ₽/час
+        Работа с юр. и физ. лицам. Сдельная работа от 1500 ₽/час
       </p>
       <div class="col-12 m-0 p-0">
         <div class="row m-0 p-0">
@@ -18,10 +18,3 @@ import ServicesCard from './components/ui/ServicesCard.vue'
     </div>
   </div>
 </template>
-
-<style scoped>
-[data-bs-theme='light'] .f3 {
-  background: #212529;
-  color: #dee2e6;
-}
-</style>
