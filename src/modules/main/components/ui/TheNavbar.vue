@@ -1,3 +1,7 @@
+<script setup>
+import { menuItems } from '@/data/data_menuItems'
+</script>
+
 <template>
   <nav class="navbar p-0">
     <div class="container-960 container-lg pt-2">
@@ -29,15 +33,3 @@
     </div>
   </nav>
 </template>
-
-<script>
-import { menuItems } from '@/data/data_menuItems'
-
-export default {
-  data() {
-    return {
-      menuItems
-    }
-  }
-}
-</script>

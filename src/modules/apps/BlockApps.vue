@@ -1,3 +1,8 @@
+<script setup>
+import { apps } from '@/data/data_apps'
+import CardApps from './components/ui/CardApps.vue'
+</script>
+
 <template>
   <div class="f3 pt-5" id="apps">
     <div class="container-960 row text-center m-0 m-auto ps-2 pt-5 pe-2 pb-5">
@@ -11,20 +16,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import { apps } from '@/data/data_apps'
-import CardApps from './components/ui/CardApps.vue'
-
-export default {
-  name: 'Block_apps',
-  components: {
-    CardApps
-  },
-  data() {
-    return {
-      apps
-    }
-  }
-}
-</script>

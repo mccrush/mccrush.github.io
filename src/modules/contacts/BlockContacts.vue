@@ -1,3 +1,10 @@
+<script setup>
+import IconGithub from './components/icons/IconGithub.vue'
+import IconX from './components/icons/IconX.vue'
+import IconTelegram from './components/icons/IconTelegram.vue'
+import IconEmail from './components/icons/IconEmail.vue'
+</script>
+
 <template>
   <div class="f5 pb-3">
     <div
@@ -75,24 +82,6 @@
     </div>
   </div>
 </template>
-
-<script>
-import IconGithub from './components/icons/IconGithub.vue'
-import IconX from './components/icons/IconX.vue'
-import IconTelegram from './components/icons/IconTelegram.vue'
-import IconWhatsapp from './components/icons/IconWhatsapp.vue'
-import IconEmail from './components/icons/IconEmail.vue'
-
-export default {
-  components: {
-    IconGithub,
-    IconX,
-    IconTelegram,
-    IconWhatsapp,
-    IconEmail
-  }
-}
-</script>
 
 <style scoped>
 .link-git {
