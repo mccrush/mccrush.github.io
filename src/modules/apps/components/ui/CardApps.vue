@@ -1,6 +1,4 @@
 <script setup>
-import Icon_mwp from './../icons/Icon_mwp.vue'
-
 defineProps({
   app: { type: Object, required: true }
 })
@@ -9,9 +7,6 @@ defineProps({
 <template>
   <div class="col-12 col-sm-6 col-md-4 mt-4 mb-5 ps-2 pe-2">
     <div class="d-block rounded-0 text-start border p-4 pt-3">
-      <h4>
-        <component :is="'Icon_' + app.alias" class="" />
-      </h4>
       <h5 class="">{{ app.title }}</h5>
       <p class="m-0" v-html="app.description"></p>
       <a

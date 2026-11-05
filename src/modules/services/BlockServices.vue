@@ -1,5 +1,5 @@
 <script setup>
-import { services } from './../../data/data_services'
+import { services } from '@/data/data_services'
 import ServicesCard from './components/ui/ServicesCard.vue'
 </script>
 

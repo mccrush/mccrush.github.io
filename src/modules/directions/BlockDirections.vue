@@ -1,5 +1,5 @@
 <script setup>
-import { directions } from './../../data/data_directions'
+import { directions } from '@/data/data_directions'
 import ServicesCard from '../services/components/ui/ServicesCard.vue'
 </script>
 

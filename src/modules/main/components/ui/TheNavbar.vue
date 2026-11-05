@@ -23,18 +23,6 @@
                 {{ item.title }}
               </a>
             </div>
-            <!-- <div class="list-inline-item">
-              <BtnSun
-                v-if="theme === 'dark'"
-                title="Переключить на светлую тему"
-                @click="changeTheme"
-              />
-              <BtnMoon
-                v-else
-                title="Переключить на темную тему"
-                @click="changeTheme"
-              />
-            </div> -->
           </div>
         </div>
       </div>
@@ -43,33 +31,12 @@
 </template>
 
 <script>
-import { menuItems } from './../../../../data/menuItems'
-
-import BtnSun from './../buttons/BtnSun.vue'
-import BtnMoon from './../buttons/BtnMoon.vue'
+import { menuItems } from '@/data/data_menuItems'
 
 export default {
-  components: {
-    BtnSun,
-    BtnMoon
-  },
   data() {
     return {
-      menuItems,
-      theme: localStorage.getItem('mc-theme') || 'dark'
-    }
-  },
-  mounted() {
-    this.setTheme()
-  },
-  methods: {
-    changeTheme() {
-      this.theme = this.theme === 'dark' ? 'light' : 'dark'
-      localStorage.setItem('mc-theme', this.theme)
-      this.setTheme()
-    },
-    setTheme() {
-      document.documentElement.setAttribute('data-bs-theme', this.theme)
+      menuItems
     }
   }
 }

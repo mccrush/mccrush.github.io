@@ -5,7 +5,7 @@
 
       <div class="col-12 m-0 p-0">
         <div class="row m-0 p-0">
-          <Card_apps v-for="app in apps" :key="app.alias" :app="app" />
+          <CardApps v-for="app in apps" :key="app.alias" :app="app" />
         </div>
       </div>
     </div>
@@ -13,13 +13,13 @@
 </template>
 
 <script>
-import { apps } from './../../data/apps'
-import Card_apps from './components/ui/Card_apps.vue'
+import { apps } from '@/data/data_apps'
+import CardApps from './components/ui/CardApps.vue'
 
 export default {
   name: 'Block_apps',
   components: {
-    Card_apps
+    CardApps
   },
   data() {
     return {
@@ -28,10 +28,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-[data-bs-theme='light'] .f3 {
-  background: #212529;
-  color: #dee2e6;
-}
-</style>
