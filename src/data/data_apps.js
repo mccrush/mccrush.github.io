@@ -5,7 +5,7 @@ export const apps = [
     alias: 'mwp',
     link: 'https://mwpapp.ru/',
     type: 'app',
-    icon: 'bi-window'
+    //icon: 'bi-window'
   },
   {
     title: 'Info 🎓 Math',
@@ -13,6 +13,6 @@ export const apps = [
     alias: 'InfoMath',
     link: 'https://mccrush.ru/info/',
     type: 'app',
-    icon: 'bi-book'
+    //icon: 'bi-book'
   },
 ]
