@@ -16,6 +16,13 @@ defineProps({ app: { type: Object, required: true } })
 
       <h5 class="mt-2">{{ app.title }}</h5>
       <p class="lh-sm m-0" v-html="app.description"></p>
+      <a
+        v-if="app.link"
+        :href="app.link"
+        target="_blank"
+        class="btn btn-sm btn-dark rounded-0 border-top-0 border w-100 mt-3"
+        >Открыть
+      </a>
     </div>
   </div>
 </template>

@@ -4,13 +4,15 @@ export const apps = [
     description: 'Менеджер веб-проектов<br/>www.mwpapp.ru',
     alias: 'mwp',
     link: 'https://mwpapp.ru/',
-    type: 'app'
+    type: 'app',
+    icon: 'bi-window'
   },
   {
     title: 'Info 🎓 Math',
     description: 'Интерактивный справочник по информатике',
     alias: 'InfoMath',
     link: 'https://mccrush.ru/info/',
-    type: 'app'
+    type: 'app',
+    icon: 'bi-book'
   },
 ]

@@ -1,6 +1,6 @@
 <script setup>
 import { apps } from '@/data/data_apps'
-import CardApps from './components/ui/CardApps.vue'
+import ServicesCard from '../services/components/ui/ServicesCard.vue'
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import CardApps from './components/ui/CardApps.vue'
 
       <div class="col-12 m-0 p-0">
         <div class="row m-0 p-0">
-          <CardApps v-for="app in apps" :key="app.alias" :app="app" />
+          <ServicesCard v-for="app in apps" :key="app.alias" :app="app" />
         </div>
       </div>
     </div>
