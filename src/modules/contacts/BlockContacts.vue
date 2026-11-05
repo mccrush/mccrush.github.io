@@ -1,10 +1,3 @@
-<script setup>
-import IconGithub from './components/icons/IconGithub.vue'
-import IconX from './components/icons/IconX.vue'
-import IconTelegram from './components/icons/IconTelegram.vue'
-import IconEmail from './components/icons/IconEmail.vue'
-</script>
-
 <template>
   <div class="f5 pb-3">
     <div
@@ -26,7 +19,7 @@ import IconEmail from './components/icons/IconEmail.vue'
         <h5>Социальные сети</h5>
         <ul class="list-unstyled">
           <li class="d-flex align-items-center">
-            <IconGithub />
+            <i class="bi bi-github"></i>
             <a
               class="link-git link-offset-2"
               href="https://github.com/mccrush"
@@ -36,7 +29,7 @@ import IconEmail from './components/icons/IconEmail.vue'
             >
           </li>
           <li class="d-flex align-items-center">
-            <IconX />
+            <i class="bi bi-twitter-x"></i>
             <a
               class="link-git link-offset-2"
               href="https://x.com/mccrush2027"
@@ -52,7 +45,7 @@ import IconEmail from './components/icons/IconEmail.vue'
         <h5>Контакты</h5>
         <ul class="list-unstyled">
           <li class="d-flex align-items-center">
-            <IconTelegram />
+            <i class="bi bi-telegram"></i>
             <a
               class="link-git link-offset-2"
               target="_blank"
@@ -62,7 +55,7 @@ import IconEmail from './components/icons/IconEmail.vue'
             >
           </li>
           <li class="d-flex align-items-center">
-            <IconEmail />
+            <i class="bi bi-envelope"></i>
             <a
               class="link-git link-offset-2"
               href="mailto:mccrush@mail.ru"
